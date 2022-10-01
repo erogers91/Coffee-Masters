@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+.header {
+    background: #43281C;
+    margin: 0 0 30px 0;
+}
+
+.brand {
+    color: #FBF2C0;
+    text-align: center;
+    padding: 15px 0
+}
+.brand img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    padding: 15px 0 25px 0;
+    color: #885A2D;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.line {
+    border-bottom: 2px solid #DCB892;
+    margin: 15px 0 15px 0;
+}
+
+.container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 0px 20px 20px 20px;
+}
+
+
+.list {
+    grid-column: 1 / 1;
+    grid-row: 2 / 4;
+    background-color: #EEE1D5;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px #E3E3E3;
+    padding: 15px 15px 25px 25px;
+}
+
+.name {
+    background-color: #EEE1D5;
+    margin: 0 0 30px 0;
+    border-radius: 5px;
+    box-shadow: 2px 4px #E3E3E3;
+    padding: 15px 15px 25px 25px;
+}
+
+.payment {
+    background-color: #EEE1D5;
+    border-radius: 5px;
+    box-shadow: 2px 4px #E3E3E3;
+    padding: 10px 15px 10px 25px;
+}
+
+.user-input-label {
+    color: #885a2d;
+    background-color: #eee1d5;
+    font-size: 12px;
+    position: absolute;
+    padding: 0 2px;
+    margin-left: 20px;
+    margin-top: -8px;
+}
+
+.user-input {
+    background-color: rgba(0,0,0,0);
+    border: 2px #885a2d solid;
+    padding: 8px;
+    border-radius: 100px;
+    width: 100%;
+    text-indent: 18px;
+    font-size: 18px;
+}
+
+.user-input-short {
+    width: 200px;
+}
+
+.add-ons {
+    padding: 10px 15px 10px 30px;
+    color: #B08979;
+    list-style: none;
+    font-size: 13px;
+}
+
+.totals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.totals-table {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 0 20px;
+}
+
+.money{
+    float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+button {
+    padding: 15px 15px;  
+    width: 90vw;
+    min-width: 350px;
+    background-color: #DDB993;
+    border: 2px #DDB993 solid;
+    border-radius: 100px;
+    font-size: 18px;
+    box-shadow: 1px 2px 2px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: grey;
+    border: 2px grey solid;
+    text-decoration: line-through;
+}
+
+.line-spacing>td {
+    padding-bottom: 1em;
+}

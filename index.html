@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+		<title>Coffee Masters</title>
+	</head>
+	<body>
+		<section class="header">
+			<h1 class="brand"><img src="assets/coffee_masters_logo.png" alt="" />Coffee Masters</h1>
+		</section>
+		<section class="container">
+			<div class="left">
+				<ul class="list">
+					<p class="title">Items</p>
+					<li>
+						1 x <span class="bold">Cappucino </span> <span class="money bold">$6.00</span>
+						<ul class="add-ons">
+							<li>Light Foam</li>
+						</ul>
+					</li>
+					<div class="line"></div>
+					<li>
+						1 x <span class="bold">Cappucino </span> <span class="money bold">$7.90</span>
+						<ul class="add-ons">
+							<li>Almond Milk</li>
+							<li>Double Espresso Shot</li>
+						</ul>
+					</li>
+					<div class="line"></div>
+					<li>
+						1 x <span class="bold">Croissant </span> <span class="money bold">$5.37</span>
+						<ul class="add-ons">
+							<li>Butter</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<div class="name">
+					<h2 class="title">Name</h2>
+					<label class="user-input-label" for="name">Name for order</label>
+					<input type="text" class="user-input" id="name" />
+				</div>
+				<div class="payment">
+					<h2 class="title">Payment</h2>
+					<label class="user-input-label" for="cc">Card number</label>
+					<input type="number" class="user-input" id="cc" /> <br />
+				</div>
+				<div class="payment">
+					<label class="user-input-label" for="cc">CCV number</label>
+					<input type="number" class="user-input user-input-short" />
+				</div>
+			</div>
+		</section>
+		<section class="totals">
+			<table class="totals-table">
+				<tbody>
+					<tr class="line-spacing">
+						<td>Subtotal:</td>
+						<td class="money">$19.27</td>
+					</tr>
+					<tr class="line-spacing">
+						<td>Tax:</td>
+						<td class="money">$0.96</td>
+					</tr>
+					<tr class="bold line-spacing">
+						<td>Total:</td>
+						<td class="money">$20.23</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="button">
+				<button>Place order</button>
+			</div>
+		</section>
+	</body>
+</html>
